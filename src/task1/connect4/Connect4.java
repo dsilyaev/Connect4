@@ -13,6 +13,7 @@ public class Connect4 {
         GameBoard board = new GameBoard(BOARD_HEIGHT, BOARD_WIDTH);
         GameLogic game = new GameLogic(board);
         Console console = new Console("> ");
+        //jasikdhnasdjdbafdkjdsbfsajldsofhaspfihsdnfpiahndfipdshfapidhaipdhjsaipodsaij
 
         console.printBoard(game.getBoard(), players);
         System.out.println();
